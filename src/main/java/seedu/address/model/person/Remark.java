@@ -6,6 +6,10 @@ public class Remark {
 
     public final String remark;
 
+    /**
+     * Constructor for Remark.
+     * @param remark The given remark for the Remark object
+     */
     public Remark(String remark) {
         requireNonNull(remark);
         this.remark = remark;
