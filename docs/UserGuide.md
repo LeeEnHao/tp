@@ -4,7 +4,7 @@ title: User Guide
 ---
 <div>
     <div>
-        <img src="images/TBMBRAND.png" width="160px">
+        <img src="images/TBM_BRAND.png" width="160px">
     </div>
     <p>
         <h3><i>Welcome to the Travelling BusinessMan User Guide!</i></h3>
