@@ -23,6 +23,10 @@ public class Timezone {
 
     public static final Set<String> VALID_TIMEZONES = new HashSet<>();
 
+    // Solution below adapted from
+    // https://mkyong.com/java8/java-display-all-zoneid-and-its-utc-offset/
+    // and https://www.baeldung.com/java-time-zones
+    // Formats all available timezones as "UTC+HH:MM"
     static {
         Set<String> allZones = ZoneId.getAvailableZoneIds();
         for (String s : allZones) {
